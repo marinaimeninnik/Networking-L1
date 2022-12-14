@@ -33,4 +33,8 @@ Every screenshot's name consists of number of task, name of working machine and 
 <br>Traffic from Client 2 reaches summarized address (172.17.0.0) via Server.</br>
 <br>![Cli2SumServer](https://github.com/marinaimeninnik/Networking-L1/blob/main/Task%205%20-%20Client-2%20reach%20172_17_0_0%20via%20server.png)</br>
 <br>[Server route records](https://github.com/marinaimeninnik/Networking-L1/blob/main/Task%205%20-%20Server%20route%20records.png)</br>
+<br>6 Task. Configure SSH in such way that Client 1 and Client 2 will be able to connect to each other and to Server 1.</br>
+<br>7 Task. The way of firewall configuration on Server 1 has to be: -connection through SSH to Client 1 is allowed and to Client 2 is not allowed; -ping has to pass from Client 2 to 172.17.D+10.1 but has not pass to 172.17.D+20.1</br>
+<br>8 Task. If in n.3 Client 1 and Client 2 internet connection routing was configured, you should delete this </br>
+8. Якщо в п.3 була налаштована маршрутизація для доступу Client_1 та Client_2 до мережі Інтернет – видалити відповідні записи. На Server_1 налаштувати NAT сервіс таким чином, щоб з Client_1 та Client_2 проходив ping в мережу Інтернет
 
